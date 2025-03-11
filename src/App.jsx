@@ -24,10 +24,21 @@ import img21 from "./assets/Vector (7).png";
 import img22 from "./assets/Vector (8).png";
 import img23 from "./assets/Снимок экрана 2022-11-14 в 5.45 1.png";
 import img24 from "./assets/Group 841.png";
+import img25 from "./assets/Group 1049.png"
+import img26 from "./assets/Ellipse 545.png";
+import img27 from "./assets/Ellipse 546.png";
+import img28 from "./assets/Ellipse 548.png";
+import img29 from "./assets/Ellipse 544 (1).png"
+import img30 from "./assets/Group 1010 (1).png"
+import img31 from "./assets/иллюстрация-вектора-карты-в-регионе-mena-eps-167723480 1.png";
+import img32 from "./assets/434ba4f5a20d0c361d4ae733771006a7 1.png"
+import img33 from "./assets/Снимок экрана 2022-11-15 в 1.13 1.png"
+import img34 from "./assets/Group 857.png"
 import up from "./assets/up (2).png";
 import down from "./assets/down (2).png";
 import Section_1 from "./components/section_1/section_1.jsx";
 import Section_2 from "./components/section_2/section_2.jsx";
+import { TextField } from "@mui/material";
 
 const App = () => {
   const items = [
@@ -40,7 +51,7 @@ const App = () => {
     {
       name: "Онлайн акселератор для IT бизнеса",
       description:
-        "Онлайн программа аскелерации IT бизнеса позволит вашей команде открыть новые горизонты и возможности для бизнеса на глобальных рынках. В результате программы вы получите возможность презентовать свой проект для международных инвесторов и локальных партнеров",
+      "Онлайн программа аскелерации IT бизнеса позволит вашей команде открыть новые горизонты и возможности для бизнеса на глобальных рынках. В результате программы вы получите возможность презентовать свой проект для международных инвесторов и локальных партнеров",
       img: img3,
     },
   ];
@@ -614,6 +625,133 @@ const App = () => {
             Основатель INNOMA.VC</p>
           </div>
         </div>
+        <img src={img25} className="mt-[50px] mb-[60px]" alt="" />
+      </div>
+      <div className="max-w-[1100px] m-auto">
+        <h1 className="font-bold text-[2rem] mb-[40px] text-[#1178B2]">Эксперты и трекеры программы</h1>
+        <div className="flex justify-between">
+          <div className="text-center text-[14px]">
+            <img src={img26} alt="" />
+            <h1 className="text-[1rem] font-bold">Юрий Ким</h1>
+            <p>Проведение исследования целевой <br />
+            аудитории позволит сформировать <br />
+            Product market fit</p>
+          </div>
+          <div className="text-center text-[14px]">
+            <img src={img27} alt="" />
+            <h1 className="text-[1rem] font-bold">Эшли Абрамс</h1>
+            <p>Проведение исследования целевой <br />
+            аудитории позволит сформировать <br />
+            Product market fit</p>
+          </div>
+          <div className="text-center text-[14px]">
+            <img src={img28} alt="" />
+            <h1 className=" text-[1rem] font-bold">Фатими Юсуф</h1>
+            <p>Проведение исследования целевой <br />
+            аудитории позволит сформировать <br />
+          Product   market fit</p>
+          </div>
+          <div className="text-center text-[14px]">
+            <img src={img29} alt="" />
+            <h1 className="text-[1rem] font-bold">Майкл Донован</h1>
+            <p>Проведение исследования целевой  <br />
+            аудитории позволит сформировать <br />
+          Product  market fit</p>
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1100px] m-auto">
+        <h1 className="font-bold text-[2rem] mb-[40px] text-[#1178B2]">Наши партнеры</h1>
+        <img src={img30} alt="" />
+      </div>
+      <div className="section_bgImg">
+        <div className="max-w-[1100px] m-auto z-10 relative">
+          <div className="mt-[40px] pt-[40px]">
+            <h1 className="text-white text-[2.5rem]  h-[130px] mt-[40px]  text-center font-bold">
+            Мы создаем международное сообщество <br />
+            экспертов и партнеров
+            </h1>
+          </div>
+          <h1 className="text-[1.4rem] text-white mt-[30px] font-normal text-center">
+          Если вы или ваш бизнес может быть полезен IT  командам при выходе <br />
+          на международные рынки,  приглашем вас стать нашим партнером
+          </h1>
+          <div className="m-auto w-[20%]">
+            <button className=" text-white bg-gradient-to-r from-blue-400 to-blue-600 rounded-lg mt-[30px] p-[20px_40px] flex">
+            Стать партнером
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1100px] m-auto">
+        <h1 className="font-bold text-[2rem] mb-[40px] text-[#1178B2]">Мероприятия и события</h1>
+        <div className="flex flex-wrap justify-between ">
+          <div className="shadow-md rounded-md w-[30%]">
+            <img src={img31} alt="" />
+            <h1 className="ml-[10px] mt-[10px] mb-[10px]">Новый отчет по MENA</h1>
+            <p className="ml-[10px] mt-[10px] mb-[10px]">Аналитический отчет по рынкам  <br />
+            Ближнего Востока (инвесторы, <br />
+            объем раундов, ТОП сферы)</p>
+            <p className="ml-[10px] mt-[10px] mb-[10px]">22.11.2022</p>
+          </div>
+          <div className="shadow-md rounded-md w-[30%]">
+            <img src={img32} alt="" />
+            <h1 className="ml-[10px] mt-[10px] mb-[10px]">Вебинар по особенностям  <br />
+            рынков Ближнего Востока</h1>
+            <p className="ml-[10px] mt-[10px] mb-[10px]">Поговорим с экспертами рынков  <br />
+            в формате дискуссии</p>
+            <p className="ml-[10px] mt-[10px] mb-[10px]">22.11.2022</p>
+          </div>
+          <div className="shadow-md rounded-md w-[30%]">
+            <img src={img33} alt="" />
+            <h1 className="ml-[10px] mt-[10px] mb-[10px]">Вебинар по особенностям <br />
+            рынков Ближнего Востока</h1>
+            <p className="ml-[10px] mt-[10px] mb-[10px]">Поговорим с экспертами рынков <br /> 
+            в формате дискуссии</p>
+            <p className="ml-[10px] mt-[10px] mb-[10px]">22.11.2022</p>
+          </div>
+        </div>
+      </div>
+      <div className="bgImg1234">
+        <div className="max-w-[1100px] m-auto flex w-[100%] flex-wrap justify-between items-center">
+          <div>
+            <h1 className="text-white font-bold text-[2.5rem]">
+            Остались вопросы?
+            </h1>
+            <p className="text-[white] font-normal">
+            Оставьте заявку и наша команда свяжется с вами
+            </p>
+            <div className="mt-[70px]">
+              <p className="text-[white] font-normal">Или напишите нам:</p>
+              <img src={img34} alt="" />
+            </div>
+          </div>
+          <div className="w-[450px] h-[350px] rounded-md p-[10px_20px] bg-[white]">
+      <TextField id="filled-basic" label="Имя" variant="filled" />
+      <TextField id="filled-basic" label="Почта" variant="filled" sx={{marginTop:"20px",marginBottom:"20px"}} />
+      <TextField id="filled-basic" label="+(971)" variant="filled"/>
+      <button className="bg-[#07AF91] p-[20px_40px] rounded-md  text-white mt-[40px]">
+              Записаться в акселератор
+      </button>
+          </div>
+        </div>
+      </div>
+      <div>
+      <div className="header_bgImg1">
+        <div className="max-w-[1100px] m-auto pt-[25px] elative ">
+          <div className="pt-[25px] z-10 relative flex items-center justify-between">
+            <img src={img1} alt="" />
+            <div className="text-white flex w-[40%] justify-between">
+              <h1>Кто мы?</h1>
+              <h1>Услуги</h1>
+              <h1>Акселератор</h1>
+              <h1>Новости</h1>
+            </div>
+            <p className="text-white"> Dubai, Single Business Tower 1503, Business Bay          <br />
+            <span>Sales@innoma.vc</span></p>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   );
